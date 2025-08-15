@@ -13,7 +13,7 @@
 
 # Welcome to your new notebook
 # Type here in the cell editor to add code!
-print("hellownawalsingh")
+#This is test notebook
 
 # METADATA ********************
 
@@ -24,10 +24,6 @@ print("hellownawalsingh")
 
 # CELL ********************
 
-# Welcome to your new notebook
-# Type here in the cell editor to add code!
-print("hello")
-print("Helloworld")
 
 # METADATA ********************
 
