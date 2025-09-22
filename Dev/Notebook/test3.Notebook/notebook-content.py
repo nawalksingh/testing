@@ -8,12 +8,12 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "17afa25a-7e6e-47d8-a618-6d9e1450193b",
-# META       "default_lakehouse_name": "Adv_Matter_LH",
-# META       "default_lakehouse_workspace_id": "9eb15e9e-e4b8-45d5-954b-36fc66e3031c",
+# META       "default_lakehouse": "aa8e1acb-4ac6-4599-a161-fb26b20cd886",
+# META       "default_lakehouse_name": "TEST_KM_Bronze_LH",
+# META       "default_lakehouse_workspace_id": "62f10259-ac2d-461a-bda1-ef452bc0d836",
 # META       "known_lakehouses": [
 # META         {
-# META           "id": "17afa25a-7e6e-47d8-a618-6d9e1450193b"
+# META           "id": "aa8e1acb-4ac6-4599-a161-fb26b20cd886"
 # META         }
 # META       ]
 # META     }
@@ -24,17 +24,9 @@
 
 # Welcome to your new notebook
 # Type here in the cell editor to add code!
-#This is test notebook
 
-# METADATA ********************
-
-# META {
-# META   "language": "python",
-# META   "language_group": "synapse_pyspark"
-# META }
-
-# CELL ********************
-
+df = spark.sql("SELECT * FROM TEST_KM_Bronze_LH.Offices LIMIT 1000")
+display(df)
 
 # METADATA ********************
 
