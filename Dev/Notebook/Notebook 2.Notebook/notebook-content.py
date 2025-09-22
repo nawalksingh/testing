@@ -13,10 +13,7 @@
 
 # Welcome to your new notebook
 # Type here in the cell editor to add code!
-print("Hello nawalsingh1)
-=======
-print("Hello Nawal Singh")
->>>>>>> 33e09878cdca35b73f30b201179c6b4275627d0e
+print("test")
 
 # METADATA ********************
 
